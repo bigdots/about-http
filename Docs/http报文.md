@@ -117,12 +117,24 @@ HTTP 首部字段是由首部字段名和字段值构成的，中间用冒号“
 | Warning             | 关于消息实体的警告信息                                                                         | Warn: 199 Miscellaneous warning                         |
 
 ### 请求首部字段(Request Header Fields)
-
+| Header              | 解释                                                                                           | 示例                                                    |
+| ------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Accept              | 指定客户端能够接收的内容类型                                                                   | Accept: text/plain, text/html                           |
+| Accept-Charset      | 浏览器可以接受的字符编码集。                                                                   | Accept-Charset: iso-8859-5                              |
+| Accept-Encoding     | 指定浏览器可以支持的 web 服务器返回内容压缩编码类型。                                          | Accept-Encoding: compress, gzip                         |
 ### 响应首部字段(Response Header Fields)
+| Header              | 解释                                                                                           | 示例                                                    |
+| ------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Accept              | 指定客户端能够接收的内容类型                                                                   | Accept: text/plain, text/html                           |
+| Accept-Charset      | 浏览器可以接受的字符编码集。                                                                   | Accept-Charset: iso-8859-5                              |
+| Accept-Encoding     | 指定浏览器可以支持的 web 服务器返回内容压缩编码类型。                                          | Accept-Encoding: compress, gzip                         |
 
 ### 实体首部字段(Entity Header Fields)
-
-详细请参考
+| Header              | 解释                                                                                           | 示例                                                    |
+| ------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Accept              | 指定客户端能够接收的内容类型                                                                   | Accept: text/plain, text/html                           |
+| Accept-Charset      | 浏览器可以接受的字符编码集。                                                                   | Accept-Charset: iso-8859-5                              |
+| Accept-Encoding     | 指定浏览器可以支持的 web 服务器返回内容压缩编码类型。                                          | Accept-Encoding: compress, gzip                         |
 
 ## 使用编码
 
